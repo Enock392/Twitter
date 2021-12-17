@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Access jQuery Library -->
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ 
+	<!-- Google Maps API -->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+ 
+	<!-- twittermap javascript -->
+	<script src="twittermap.js"></script>
+ 
+	<!-- css -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- side panel div container -->
+	<div id="side_panel">
+		<h1>Twitter Mapper</h1>
+ 
+		<!-- twitter search box -->
+		<div id="search-container">
+			<input id="search-text" type="text">
+			<input id="search-button" type="button" value="go">
+		</div>
+		
+		<!-- twitter results output -->
+		<div id="tweetlist"></div>
+	</div>
+ 
+	<!-- map div -->
+	<div id="map_canvas"></div>
+</body>
+</html>
